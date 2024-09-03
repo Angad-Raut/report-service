@@ -1,0 +1,10 @@
+version: '1.0'
+services:
+  income-service-app:
+    container_name: reportContainer
+    image: report-details
+    restart: always
+    build: .
+    ports:
+      - 1996:1996
+
